@@ -1,0 +1,373 @@
+.env
+.git/COMMIT_EDITMSG
+.git/HEAD
+.git/config
+.git/description
+.git/hooks/applypatch-msg.sample
+.git/hooks/commit-msg.sample
+.git/hooks/fsmonitor-watchman.sample
+.git/hooks/post-update.sample
+.git/hooks/pre-applypatch.sample
+.git/hooks/pre-commit.sample
+.git/hooks/pre-merge-commit.sample
+.git/hooks/pre-push.sample
+.git/hooks/pre-rebase.sample
+.git/hooks/pre-receive.sample
+.git/hooks/prepare-commit-msg.sample
+.git/hooks/push-to-checkout.sample
+.git/hooks/sendemail-validate.sample
+.git/hooks/update.sample
+.git/index
+.git/info/exclude
+.git/logs/HEAD
+.git/logs/refs/heads/main
+.git/objects/03/18fb0964a94c90c05ca306aa419725e8cce81b
+.git/objects/03/d79709b7b719636f7db41875c60218f15fe30e
+.git/objects/04/bb3143034a3446a6f916c165db99e64a949a4b
+.git/objects/05/ad7a7dcea62d4ba0b1c702fd665cdd160deaca
+.git/objects/06/e58851f2188848957d3d3587ec9a78e7ab9bef
+.git/objects/08/caaf04859cd48eea029d60980f56101010b2cf
+.git/objects/09/845d5386beace9f9a9161635cddc9714a51d63
+.git/objects/09/cd55c3fed9c2e236102d0169de1a2bc2f67c92
+.git/objects/0c/a651b26e532dd17f17c5c2a33c7c44957b14ed
+.git/objects/0d/7766599f8b6db19ea4a6375cd175eb87e907f5
+.git/objects/0f/8d4d31d8c234df317eeabbec10c1cc652dc0c3
+.git/objects/10/3aa20a050b42745694bb3520fcd3b0ee164809
+.git/objects/11/90f6bd5edd09a179826557ec8ed21a12625f0c
+.git/objects/13/174601f2b07c9429f9bc7e977fd08829f6b1ee
+.git/objects/14/9e94f27d7d552822b0943acb8fa91dfb6cd343
+.git/objects/15/c4d1c796a88a630c57abbacfebaab0e183a84a
+.git/objects/16/b30741d6309374ef1ec1a87605766c2ba5563f
+.git/objects/18/f74cc362d9d013efe4d563c8bc65f349992858
+.git/objects/1b/96688cfaf7fa86e2dadfc47b8bb0eba519cb11
+.git/objects/1c/37951ee9f5e6bc07acfcd9be7b652eab61cc5e
+.git/objects/1d/7cac7baa66cab3d8a59033d300ac96aa222867
+.git/objects/21/1003032ee4bfd21ca08ec413b9adb39e2eaf18
+.git/objects/21/9d3bb29c413760dbaba0c3c253758d1248837b
+.git/objects/22/1c6e5e2b4cd28412c56319de15c1483f47071d
+.git/objects/24/cf6decfa6abdd359e4df0a369b5789dc41dde3
+.git/objects/26/8d393657ee783f7aac396d4fc873abb8b134c7
+.git/objects/26/ce639e030739f74c22ea62ac292b89de2ac45f
+.git/objects/29/5c5d3d97d28e105ee793c99299598d64d53a80
+.git/objects/2e/08c8a66ea1d12c9d71e6dadeb80ccaf662f530
+.git/objects/2f/8584460e5edcd09b320b58f998e1c97b320d59
+.git/objects/37/a631c239be23829e29715adb99bb212a3db7ec
+.git/objects/38/426fa4f12a45ce28a61f14a4912c85b9f63267
+.git/objects/3a/55a22511730df6fff66ffaeb35062322519905
+.git/objects/3b/a5819bb476200184288fc7f6fa2c1a4d164092
+.git/objects/3b/e9662d29e64246bcd5f3bbf997166092626ecc
+.git/objects/3c/db8457cacb781efdad01631e7c33ea98893c2a
+.git/objects/3d/5d36091fd39e7ec29e9b07dbfa9adb25b20f40
+.git/objects/43/32a96633c0174d48645331595e665c49682cd1
+.git/objects/46/0e9861260f197e9af7b7411bd53496e41c5039
+.git/objects/47/043657c991c3fb58d4ac3934aa499fec615da1
+.git/objects/48/b978e3d41153d2ef6c9f644f0a3343b0938a0c
+.git/objects/49/1209e57fc49ddf43218030e8dcdff6a9e2b209
+.git/objects/49/e25c7435d3a4ad202b7553baedba40c9f4b186
+.git/objects/50/0de9d437511c3823ec62843d2532f5437f296f
+.git/objects/50/5d4ddba570be70ec76be12201b3a105e37b93c
+.git/objects/52/d211ddb4cfad74c14fe6289297b54e230d5e9f
+.git/objects/53/241bd1c6e62368839b76f2d5cd292306d28093
+.git/objects/54/a69ce18a1e0fa1f8b1016c0fcb52538a403e0d
+.git/objects/56/1c697f371804b9064b408ace6aa9f31383a506
+.git/objects/56/ada80c7edbf5f37a2d520469f63abe956aabf9
+.git/objects/57/d9cb8693c630d25d7ce528e673c3bdc7eb0631
+.git/objects/5b/dbfb15b9adcd8b9b2e9a99d2d7eebfdd0ad1b1
+.git/objects/5c/3217db5a86c7767e2ca207de9bcf764bda3375
+.git/objects/5c/99fbdfdc4a8f52a5ea9619762ec2fe2734e155
+.git/objects/5c/cd03cc2054b760421b5c8cb1d98ef587109f54
+.git/objects/5e/21e2fb9738eef35ba197c9448a95011b721387
+.git/objects/61/858f866d4813199fa65b714a3c5f4ae8108dba
+.git/objects/62/398827633898a18488bca034ee5fc00105659f
+.git/objects/62/94b702ee500f87d302244f0d02aac82ed85b6a
+.git/objects/63/3cc2659b6812d03198aa0a0bd07d59848e489f
+.git/objects/63/d0ff68bc0aa4c7ab3f1ab51b503dfe022d9381
+.git/objects/64/2ff51b622a96116b33063bdd43d8a622bbfe99
+.git/objects/65/e8609ba903a7dbb11d32332a476e34ae1c7616
+.git/objects/66/0f066ff8742249d83fadd10ef070df67d29a59
+.git/objects/66/b2b2cc86c930ccef827bb58791d5aa1f4564a3
+.git/objects/67/9fc591bb76d5302319b53bc82340ca034e93a8
+.git/objects/68/5319159e59269be0735263c1d48a858508e22d
+.git/objects/69/63af1cceb95e6c08df28a15b0fb7472fb0c80f
+.git/objects/6b/e72fc91c8a96ffd1c400132e961f39e251f7f8
+.git/objects/6c/b84cead94874c0ce886c330d4172ff002a122e
+.git/objects/6d/058faa16e0236fb0e39ceec2b22458680799b0
+.git/objects/6f/05d171ee51c351abac5d8ac39a252afba35ee8
+.git/objects/70/415cbc6d1c07b980be85dc21a65bb3e4c28711
+.git/objects/71/e60bec4404c8265ce948a2a8b2793bb9b1a57c
+.git/objects/73/f187c627dad0e42787f374fef7c5184d07da65
+.git/objects/75/aae8159816bdc7aef3a7487049cd69f6366e93
+.git/objects/76/e28e21542beab9f9f9e3bd2166155eca2f6791
+.git/objects/79/6fb74a6415d45cea92b2112c5c955edb967b82
+.git/objects/7a/47d52b2421a1a586ce75aa21d9b7abd5925cde
+.git/objects/7c/dc437ba5dec3949c841b65d638b56118b18097
+.git/objects/7e/ab72bcce81e4097c493f87aa3570b4e036658d
+.git/objects/7f/97dce12115f0008999e0f076fedfda87d8deca
+.git/objects/80/38452e369b39fd754a8ccc86be0d0fc82ad212
+.git/objects/80/3f00d0dcdf9509ae8df5df498db66d1baffadf
+.git/objects/81/267e34d4cb8b35f10d6f701a051a854ae99b39
+.git/objects/83/4af6ef12ee85679660358c0fa09c9f7ee66ad4
+.git/objects/84/f97c6d500dd00acb8b86906254fbb43820a069
+.git/objects/86/0dd13567ae1d97b34c157d30556b6f0023decf
+.git/objects/87/a413ed101454d22150001be54fbf77d70b5aef
+.git/objects/88/8746d7b7e27e16ecb5d54b8f7e66efcdaa4ee9
+.git/objects/88/cadf914c7e0082c5cab2a5080d5f95d04af087
+.git/objects/89/4e56230f049f1e63d389ac752aaccdc224d3d3
+.git/objects/8c/5e11cada6f1e75551ff54976f503a65f572f57
+.git/objects/8c/bd20940a396e904a6f692c5a575c187daca3ad
+.git/objects/8e/4bb0934fa45da77f83cbd8166fb4019578a8c8
+.git/objects/8e/6e030e412bb27c369d7aaa028cae6d6c0a39ca
+.git/objects/8f/415d0fc65215146b4f4c491f9d38db68ce9b7e
+.git/objects/8f/ff8c1931ccef775afa014caa117dbb4ddce46f
+.git/objects/90/e029ea5e5fa06471c66c3295cba91a6cb62520
+.git/objects/91/1989bafa80f208174e452bc9e8a4636ddff8a0
+.git/objects/92/57c5b7bf77faf622d9a64d9e333471af2db995
+.git/objects/92/c8759ed6729fa6a416df5a690c0e1a453798ae
+.git/objects/92/d6afd85696951c62cc3d7005be5f9992e0834d
+.git/objects/93/6b9224ea35398a1d68d31c508b756cd892d60b
+.git/objects/94/6a8a160d9f707476cea6546a759f9a99995318
+.git/objects/94/c6646e3f8bfa5e5dead8c664a6b59c52794ebe
+.git/objects/96/70662897521af54449d35761cb66a0352a4eed
+.git/objects/97/2731e9da3b9a5f184ec2884c4249a2d1152437
+.git/objects/97/6e71abd4ead60aad21d644403e7acde6b461d3
+.git/objects/98/63e22f32bb3b04c2a8adeb9fd1ffee7ceb28de
+.git/objects/9c/4b2a7eda62cb3e0937e842c98b5df38b5396ec
+.git/objects/9d/bac7d05ea9b01dc77c8187b92397a578d4904e
+.git/objects/9f/0ac0f0976116ac0ad808bf51ca6eea39089cef
+.git/objects/9f/39674a31642d50e9a393b3485d916a1ab24c3a
+.git/objects/a0/b8ff76cd3d8928bc64dc8dc7b8901e90711193
+.git/objects/a0/f34301503383aa049e53e7c257e45ab90ff76a
+.git/objects/a1/a7f5368f954f443c6f15f08017fdbe89021060
+.git/objects/a3/46b412d4cafb6a47501577144e13de4b6a580a
+.git/objects/a4/2730b1289a4270e665de107c1b722db7ddb947
+.git/objects/a4/59ffa8bc7ca0f628a178f9fdce8ef4aa3c3009
+.git/objects/a6/5053e3b73df726f20ab0770ec5fb412a5877e2
+.git/objects/a7/dc1e20bd4a4c9cfba5d184143f6ba14e967937
+.git/objects/a9/259763daab054f0b906d375d833b6871d91b9e
+.git/objects/aa/33b6421ba69cea4079892ed489f99b8892ac3b
+.git/objects/aa/a4b58c2e2dc27c8b3c23cc4cbff50d2c45c6b2
+.git/objects/ab/3a815fe0d74ebf1c64c675fa45840fb87c4365
+.git/objects/ab/d357d63ac5718dd0e7ef1c4829d95834316e3a
+.git/objects/af/b6cfe28228f9697ef021fffde91816c996738b
+.git/objects/af/bb606077b5326bdacf4b102af4f7bf6875dd15
+.git/objects/af/f73ffb7567634d854b845be1165e2e67186fab
+.git/objects/af/f954677245507cc3f21e16c55b9bca87fbcbaf
+.git/objects/b2/d18a1396e4d8013e8237908997d556c8473373
+.git/objects/b6/c38499ca0d81fecd4adb1578145818718acf7f
+.git/objects/b7/08d976311490b6c2211b31f43e5ea11475ebf2
+.git/objects/b9/6d58e2763e42398ed23f0c0626c7145c32e08c
+.git/objects/bc/cb5ff69895c9a6aa48946d62c73c15a4d43be0
+.git/objects/bd/6246a50c0ee99444210eb1580b5e27a828ac81
+.git/objects/be/1ce1aae347f892c6e4fb0c4a3e3c4b90a1f178
+.git/objects/c0/406cca213ed457da846a355f921b1c4388fd69
+.git/objects/c2/116692291700869edaa4ecb2632b6b8e9814e7
+.git/objects/c3/fc8e9921d2256c0191d6fd219a7c19e349190e
+.git/objects/c4/062b588c0871835b0d7a1ad86c5c943fa8fc2f
+.git/objects/c7/06dd7b31a0fdbf474258df2f1839e8d98cae04
+.git/objects/c7/4adecb46f63c9494dbab4907b005e13baeb3ae
+.git/objects/c7/59e446a830830093c12f079769ef148f7f3f9a
+.git/objects/c7/8712eaca11ac760f29d9f68a0c734f2b4848aa
+.git/objects/c9/8fad7ff0782e2a57b1fc47aba96a9ba5f6d853
+.git/objects/ca/822ef87f6126e365011b55cba55a7384359773
+.git/objects/ca/e7619c1ed99a81e4d749a1b4f1d3e5e17d52b1
+.git/objects/cb/71427f24e031d5df5a0a06012353200d228152
+.git/objects/cd/21f064fe2766d5ca608bdda4fe75c4c72b12ed
+.git/objects/ce/91b6dd3abddcef1fa8f14a00592d966662cda3
+.git/objects/cf/60b7ec730178ba4bf7047ea5969ee271abdc4e
+.git/objects/cf/61d6a383674e2e55835285fcd3e7d01ba8c954
+.git/objects/cf/78d0b6941637651ff22bc921ead5addefaa557
+.git/objects/cf/aac9cc597f77311c44facf20d3f316cf762a2d
+.git/objects/d0/edd9465db22c0b4d8873d6fa8eaf069070c9cc
+.git/objects/d2/4b346763646459672a503f1568ed4b98fd11fc
+.git/objects/d2/c21c687c3ce67bf42c616a5818af552964f8b0
+.git/objects/d4/2dabaff9fa35cad2330214384ee67ac0c99e82
+.git/objects/d5/4c4502cc3206678ccf4f60f4fa14cff0fe30d2
+.git/objects/d5/7fc8bc5708be5f7590c16187f2897ade8bc8f5
+.git/objects/d7/8ce78e6b06152b87f511dfea16386179e0d3ef
+.git/objects/d7/ce091a07437a0ab9d4958d3a939612082a3e22
+.git/objects/d8/389f54bd7d5fd4b638d7b9672a73bcab200dbf
+.git/objects/d8/992a4fdcaeb0a10cc71c4f08d942af5e865a8f
+.git/objects/db/046c90dbdaf0627d79ed9d432e1e10ff5e0552
+.git/objects/dd/97d6b39137ad95f9d3a1a2a343a0ecd16911d8
+.git/objects/de/09d2b6716aa01db74f94f6c8f2b62f9f9e62bb
+.git/objects/df/68af919d4b5f0222fecb089784a87636163267
+.git/objects/e0/a6c54a20f242c1f3e9725e0c01d729314543ca
+.git/objects/e0/bfb16232aa80aa1d4b51ec7a5be6639f179edd
+.git/objects/e3/d5b235eda9c138f9a24beb77cc14ae6e868b2f
+.git/objects/e4/ee1d67050cf41e9601deba8a3f6755a0b29b18
+.git/objects/e4/f9746e70537ecd3aa753a10b0e09033bdc642b
+.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+.git/objects/e6/d313e77bfa4751ea8add4435d20fa7cfb87e25
+.git/objects/e6/decc7e0047d8117e17003062dc44e41fa04b43
+.git/objects/e7/221555a32e3fd83803baa3f1e768b8a00058ac
+.git/objects/e8/2bacf68a26c335cca3b7d38d9f7bd291d11205
+.git/objects/e8/9fc247c04f880fb436aee1bfa0d1548e5abdeb
+.git/objects/e8/dedc6ed276895f3a08d4cfd765c8a266223b26
+.git/objects/ea/48df1e75fddefaa9c82155240b4368cc63818d
+.git/objects/ea/89150c355e8ef63e3dc3e5f6ec2d38a3c72907
+.git/objects/ed/10cba977577ebb3dc8625aec48c71d16155044
+.git/objects/ed/33c9637561e3a8902af050f62d8d45c69eece3
+.git/objects/ef/78de9458ae982923ebc5eb7d418eb21e735452
+.git/objects/f2/7a4344b4bbbf0d3a82a0cef77ef6af5c29edd5
+.git/objects/f3/0969ba299042dff3eede58bced19466a5c2bc0
+.git/objects/f8/4f696380684ad068e9d492afc0d0c1ae5b680c
+.git/objects/fa/b81068af494d19ed9c2dc91a2a19b6382fa3eb
+.git/objects/fb/03025f36f1fe40352828b6b6ed9b1e98ffc6ea
+.git/objects/fb/3d0aa3ed163ccf1feacbba918043e7cf1a94d6
+.git/objects/fb/7d9647acd63361ab8633744322c5f0fad14a72
+.git/objects/fe/3398177d3a94f9a0c0eb9f333e8f8034e9a7f0
+.git/refs/heads/main
+.xenv
+Zapata_m6g toplu/.vscode/guimodule/ChannelManagerInterface.dll
+Zapata_m6g toplu/.vscode/guimodule/DocumentFormat.OpenXml.dll
+Zapata_m6g toplu/.vscode/guimodule/ExcelComLib.dll
+Zapata_m6g toplu/.vscode/guimodule/Fx2DPlus.dll
+Zapata_m6g toplu/.vscode/guimodule/Fx3DPlus.dll
+Zapata_m6g toplu/.vscode/guimodule/FxCompilerLib.dll
+Zapata_m6g toplu/.vscode/guimodule/FxDebugLib.dll
+Zapata_m6g toplu/.vscode/guimodule/FxGUILib.dll
+Zapata_m6g toplu/.vscode/guimodule/FxGui.dll
+Zapata_m6g toplu/.vscode/guimodule/FxIOLib.dll
+Zapata_m6g toplu/.vscode/guimodule/FxMathEngine.dll
+Zapata_m6g toplu/.vscode/guimodule/FxMathLib.dll
+Zapata_m6g toplu/.vscode/guimodule/FxPySupport.dll
+Zapata_m6g toplu/.vscode/guimodule/FxQtBinding.dll
+Zapata_m6g toplu/.vscode/guimodule/FxWrapperLib.dll
+Zapata_m6g toplu/.vscode/guimodule/FxWrapperLib/fxwrapperlib.h
+Zapata_m6g toplu/.vscode/guimodule/ICPDAS.zip
+Zapata_m6g toplu/.vscode/guimodule/ICPDAS_USBIO.dll
+Zapata_m6g toplu/.vscode/guimodule/Microsoft.Office.Interop.Excel.dll
+Zapata_m6g toplu/.vscode/guimodule/Microsoft.Vbe.Interop.dll
+Zapata_m6g toplu/.vscode/guimodule/Office.dll
+Zapata_m6g toplu/.vscode/guimodule/PACSDK.dll
+Zapata_m6g toplu/.vscode/guimodule/PyEvaluator.exe
+Zapata_m6g toplu/.vscode/guimodule/Qt5Core.dll
+Zapata_m6g toplu/.vscode/guimodule/Qt5DataVisualization.dll
+Zapata_m6g toplu/.vscode/guimodule/Qt5Gui.dll
+Zapata_m6g toplu/.vscode/guimodule/Qt5Multimedia.dll
+Zapata_m6g toplu/.vscode/guimodule/Qt5Network.dll
+Zapata_m6g toplu/.vscode/guimodule/Qt5OpenGL.dll
+Zapata_m6g toplu/.vscode/guimodule/Qt5PrintSupport.dll
+Zapata_m6g toplu/.vscode/guimodule/Qt5SerialPort.dll
+Zapata_m6g toplu/.vscode/guimodule/Qt5Sql.dll
+Zapata_m6g toplu/.vscode/guimodule/Qt5Svg.dll
+Zapata_m6g toplu/.vscode/guimodule/Qt5TextToSpeech.dll
+Zapata_m6g toplu/.vscode/guimodule/Qt5WebSockets.dll
+Zapata_m6g toplu/.vscode/guimodule/Qt5Widgets.dll
+Zapata_m6g toplu/.vscode/guimodule/Qt5Xml.dll
+Zapata_m6g toplu/.vscode/guimodule/USBDEV_LIB.dll
+Zapata_m6g toplu/.vscode/guimodule/XlsLib.dll
+Zapata_m6g toplu/.vscode/guimodule/biodaq.dll
+Zapata_m6g toplu/.vscode/guimodule/biodaqutil.dll
+Zapata_m6g toplu/.vscode/guimodule/ftd2xx.dll
+Zapata_m6g toplu/.vscode/guimodule/guimodule.exe
+Zapata_m6g toplu/.vscode/guimodule/imageformats/qgif.dll
+Zapata_m6g toplu/.vscode/guimodule/imageformats/qjpeg.dll
+Zapata_m6g toplu/.vscode/guimodule/imageformats/qsvg.dll
+Zapata_m6g toplu/.vscode/guimodule/libMPSSE.dll
+Zapata_m6g toplu/.vscode/guimodule/libcrypto-1_1-x64.dll
+Zapata_m6g toplu/.vscode/guimodule/libeay32.dll
+Zapata_m6g toplu/.vscode/guimodule/libgcc_s_seh-1.dll
+Zapata_m6g toplu/.vscode/guimodule/libhunspell-1.3-0.dll
+Zapata_m6g toplu/.vscode/guimodule/libiconv-2.dll
+Zapata_m6g toplu/.vscode/guimodule/libintl-8.dll
+Zapata_m6g toplu/.vscode/guimodule/libpq.dll
+Zapata_m6g toplu/.vscode/guimodule/libssl-1_1-x64.dll
+Zapata_m6g toplu/.vscode/guimodule/libstdc++-6.dll
+Zapata_m6g toplu/.vscode/guimodule/libwinpthread-1.dll
+Zapata_m6g toplu/.vscode/guimodule/msvcr100.dll
+Zapata_m6g toplu/.vscode/guimodule/platforms/qminimal.dll
+Zapata_m6g toplu/.vscode/guimodule/platforms/qwindows.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/AF Plugin.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/AF Plugin.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Adaptive Filters.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Adaptive Filters.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Audio Toolkit.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Audio Toolkit.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Chemistry.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Chemistry.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Curve Fitting Toolkit.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Curve Fitting Toolkit.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Database Toolkit.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Database Toolkit.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - Advantech Forms.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - Advantech Forms.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - Advantech.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - Advantech.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - ICP COM 7000 Forms.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - ICP COM 7000 Forms.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - ICP Config.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - ICP Config.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - ICP MODBUS Config.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - ICP MODBUS Config.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - ICP USB 2000 Forms.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - ICP USB 2000 Forms.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - ICP.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - ICP.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - LabJack Forms.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - LabJack Forms.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - LabJack.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - LabJack.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - Modbus Advantech 6000.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Devices - Modbus Advantech 6000.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Document Plugin.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Document Plugin.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Drawing.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Drawing.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Equalizer Inverse Toolkit.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Equalizer Inverse Toolkit.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Equalizer Toolkit.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Equalizer Toolkit.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/FTDI Plugin.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/FTDI Plugin.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Filtering Toolkit 1.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Filtering Toolkit 1.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Filtering Toolkit 2.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Filtering Toolkit 2.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Insert Widgets.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Insert Widgets.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Microbit Toolbox.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Microbit Toolbox.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Modbus Functions.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Modbus Functions.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Periodic Table.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Periodic Table.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Physics Templates.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Physics Templates.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/PyTorch AI Bench.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/PyTorch AI Bench.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Qt Binding.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Qt Binding.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/SCADA.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/SCADA.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Scada Logger.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Scada Logger.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Scada Panel.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Scada Panel.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Signal Transforms Toolkit.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Signal Transforms Toolkit.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Stat Studio.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Stat Studio.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Statistical DSP Toolkit.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Statistical DSP Toolkit.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/String Functions.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/String Functions.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/TensorFlow AI Bench.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/TensorFlow AI Bench.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Utility Functions.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Utility Functions.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Virtual Modbus Device.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Virtual Modbus Device.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Virtument.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Virtument.h
+Zapata_m6g toplu/.vscode/guimodule/plugins/Waveform Toolkit.dll
+Zapata_m6g toplu/.vscode/guimodule/plugins/Waveform Toolkit.h
+Zapata_m6g toplu/.vscode/guimodule/python.zip
+Zapata_m6g toplu/.vscode/guimodule/sqldrivers/qsqlite.dll
+Zapata_m6g toplu/.vscode/guimodule/sqldrivers/qsqlodbc.dll
+Zapata_m6g toplu/.vscode/guimodule/sqldrivers/qsqlpsql.dll
+Zapata_m6g toplu/.vscode/guimodule/ssleay32.dll
+Zapata_m6g toplu/.vscode/guimodule/texttospeech/qtexttospeech_sapi.dll
+Zapata_m6g toplu/.vscode/settings.json
+Zapata_m6g toplu/Zapata_m6g-20250330T201700Z-001.zip
+aaaxxxaaaa

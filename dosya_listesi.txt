@@ -1,0 +1,31 @@
+Zapata_m6g toplu/zzzzapata_m6g_tumu.py
+Zapata_m6g toplu/zzzzapata_m6g_tumu.txt
+aaa modul isimleri ve amaclari.md
+alternativeembeddingmodule.py
+beniiyiceoku.md
+citationmappingmodule.py
+clustering_module.py
+configmodule.py
+degisklikler.md
+dosya_listesi.txt
+embeddingmodule.py
+filesavemodule.py
+guimodule.py
+hatalar_gelistirme ve oneriler.md
+helpermodule.py
+layout_analysis.py
+main.py
+pdfkutuphaneleri.py
+pdfprocessing.py
+readme.md
+rediscache.py
+redisproccess.py
+redisqueue.py
+requiements.txt
+robustembeddingmodule.py
+scientific_mapping.py
+sqlite_storage.py
+veri_gorsellestirme.py
+veri_isleme.py
+yapay_zeka_finetuning.py
+zoteromodule.py
