@@ -1,0 +1,35 @@
+🚀 Detaylı Kontrol ve Güncellenmiş Modül Listesi Tamamlandı!
+
+📌 Tüm eski ve yeni modüller tek tek karşılaştırıldı.
+📌 Eksik görünen modüllerin bir kısmının taşındığı veya birleştirildiği doğrulandı.
+📌 Her modüldeki fonksiyonlar ve görevleri netleştirildi.
+📌 Yeni, güncellenen ve birleştirilen modüller işaretlendi.
+
+🔍 📌 Güncellenmiş Modül Listesi (Son Durum – 25 Modül) zapata_m6h yazilacak
+
+Modül Adı	                    Durum	    Açıklama
+configmodule.py	                ✅ Güncellendi	.env dosyası okuma, log sistemi, Redis & SQLite yapılandırması içerir.
+pdfprocessing.py	            ✅ Güncellendi	PDF metin ve tablo çıkarma, yapısal haritalama, sütun düzenleme.
+zoteromodule.py	                ✅ Güncellendi	Zotero API bağlantısı, DOI ile PDF indirme, kaynakça çekme.
+embeddingmodule.py	            ✅ Güncellendi	Temiz metin embedding işlemleri, ChromaDB bağlantısı.
+alternativeembeddingmodule.py	✅ Güncellendi	Contriever, Specter, MPNet, SBERT, RoBERTa, GTE gibi modeller için embedding desteği.
+citationmappingmodule.py	    ✅ Güncellendi	Metindeki atıfları kaynakçalarla eşleştirme, ChromaDB’ye ekleme.
+clustering_module.py	        ✅ Güncellendi	Embedding verileriyle makale kümeleme işlemi.
+robustembeddingmodule.py	    ✅ Güncellendi	Hata toleranslı embedding işlemleri.
+helpermodule.py	                ✅ Güncellendi	Metin temizleme, stopword filtreleme, bellek yönetimi.
+filesavemodule.py	            ✅ Güncellendi	Temiz metinleri, tabloları, embedding’leri kaydetme.
+redisqueue.py	                ✅ Güncellendi	Redis tabanlı işlem kuyruğu, başarısız görevleri tekrar çalıştırma.
+rediscache.py	                ✅ Güncellendi	Redis’te embedding ve bilimsel haritalama verilerini saklama.
+sqlite_storage.py	            ✅ Güncellendi	Temiz metinleri, bibliyografyayı ve kaynakçaları SQLite’e kaydetme.
+veri_isleme.py	                ✅ Güncellendi	Atıf zinciri analizlerini yönetir.
+veri_gorsellestirme.py	        ✅ Güncellendi	Atıf zincirlerini ve kümelenme sonuçlarını görselleştirme.
+yapay_zeka_finetuning.py	    ✅ Güncellendi	Fine-tuning için AI modellerini eğitme.
+scientific_mapping.py	        ✅ Güncellendi	Makale bölümlerini belirleme, bilimsel haritalama.
+layout_analysis.py	            ✅ Güncellendi	Sayfa düzeni analizi, başlık-paragraf ayrımı, tablo konumları.
+retriever_integration.py	    ✅ Güncellendi	Retrieve ile Zapata veritabanlarını entegre etme.
+guimodule.py	                ✅ Güncellendi	Grafik arayüzü (GUI) yönetimi, model seçim menüsü, eğitim ilerleme çubuğu.
+faiss_integration.py	        🔄 Yeni	         FAISS ile vektör veritabanı yönetimi, ChromaDB ile senkronizasyon.
+rag_pipeline.py	                🔄 Yeni	         RAG (Retrieval-Augmented Generation) entegrasyonu.
+reranking_module.py	            🔄 Yeni      	 Retrieve sonuçlarını yeniden sıralama (Re-ranking).
+training_monitor.py	            🔄 Yeni	         Eğitim sürecini izleme, GUI’de ilerleme çubuklarını yönetme.
+main.py	                        ✅ Güncellendi	Tüm modülleri birleştirir, iş akışını yönetir.
