@@ -1,5 +1,5 @@
 # Zapata M6 - Kullanım Kılavuzu ve Örnekler
-## Practical Usage Guide & Examples
+## Pratik Kullanım Kılavuzu ve Örnekler
 
 ### 🚀 Hızlı Başlangıç
 

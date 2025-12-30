@@ -1,7 +1,7 @@
-# Zapata M6 - Code Quality Analysis & Improvement Recommendations
+# Zapata M6 - Kod Kalitesi Analizi ve İyileştirme Önerileri
 ## Kod Kalitesi Analizi ve İyileştirme Önerileri
 
-### 📊 Executive Summary
+### 📊 Yönetici Özeti
 
 Bu dokümanda Zapata M6 kod tabanının derinlemesine kalite analizi, mevcut sorunlar ve kapsamlı iyileştirme önerileri sunulmaktadır.
 
@@ -26,7 +26,7 @@ def _extract_text_pdfplumber(self, pdf_path):
         text = "\n".join([page.extract_text() for page in pdf.pages if page.extract_text()])
     return text
 
-# ÖNERİ: Kapsamlı hata yakalama
+# ÇÖZüM: Kapsamlı hata yakalama
 def _extract_text_pdfplumber(self, pdf_path):
     try:
         if not os.path.exists(pdf_path):
@@ -57,7 +57,7 @@ def _extract_text_pdfminer(self, pdf_path):
     # PDFMiner ile metin çıkarma işlemi
     pass  # Geliştirilecek
 
-# ÖNERİ: Tam implementasyon
+# ÇÖZÜM: Tam implementasyon
 def _extract_text_pdfminer(self, pdf_path):
     from pdfminer.high_level import extract_text
     from pdfminer.pdfparser import PDFSyntaxError
@@ -75,13 +75,13 @@ def _extract_text_pdfminer(self, pdf_path):
 
 #### Performans İyileştirmeleri 🚀
 ```python
-# SORUN 3: Memory inefficiency
+# SORUN 3: Bellek verimsizliği
 def _extract_text_pdfplumber(self, pdf_path):
     with pdfplumber.open(pdf_path) as pdf:
         text = "\n".join([page.extract_text() for page in pdf.pages if page.extract_text()])
     return text
 
-# ÖNERİ: Streaming approach
+# ÇÖZÜM: Akış yaklaşımı
 def _extract_text_pdfplumber_streaming(self, pdf_path):
     """
     Büyük PDF'ler için bellek dostu streaming yaklaşım
@@ -109,13 +109,13 @@ def _extract_text_pdfplumber_streaming(self, pdf_path):
 ```python
 # SORUN 1: API anahtar güvenliği
 def _generate_embedding_openai(self, text):
-    response = openai.Embedding.create(  # API key exposure riski
+    response = openai.Embedding.create(  # API key açığa çıkma riski
         input=text,
         model="text-embedding-ada-002"
     )
     return response["data"][0]["embedding"]
 
-# ÖNERİ: Güvenli API key yönetimi
+# ÇÖZÜM: Güvenli API key yönetimi
 import keyring
 from functools import lru_cache
 
@@ -162,7 +162,7 @@ def _generate_embedding_contriever(self, text):
     """
     pass
 
-# ÖNERİ: Tam implementasyon
+# ÇÖZÜM: Tam implementasyon
 def _generate_embedding_contriever(self, text):
     """
     Facebook Contriever modeli ile embedding oluşturur
@@ -215,22 +215,22 @@ def _generate_embedding_contriever(self, text):
 # SORUN 1: Basit regex pattern
 self.citation_regex = r"\((.*?)\)"  # Çok basit, yanlış pozitifler
 
-# ÖNERİ: Gelişmiş citation patterns
+# ÇÖZÜM: Gelişmiş atıf desenleri
 class CitationPatterns:
     """
-    Akademik atıf formatları için gelişmiş regex patterns
+    Akademik atıf formatları için gelişmiş regex desenleri
     """
     
-    # Author-year format: (Smith, 2020)
+    # Yazar-yıl formatı: (Smith, 2020)
     AUTHOR_YEAR = r'\(([A-Z][a-z]+(?:\s+et\s+al\.)?(?:,\s*[A-Z][a-z]+)*),?\s+(\d{4}[a-z]?)\)'
     
-    # Multiple citations: (Smith, 2020; Jones, 2019)
+    # Çoklu atıflar: (Smith, 2020; Jones, 2019)
     MULTIPLE_CITATIONS = r'\(([^)]*(?:\d{4}[a-z]?[^)]*(?:;\s*[^)]*\d{4}[a-z]?[^)]*)*)\)'
     
-    # Numbered citations: [1], [2-5]
+    # Numaralı atıflar: [1], [2-5]
     NUMBERED = r'\[(\d+(?:-\d+)?(?:,\s*\d+(?:-\d+)?)*)\]'
     
-    # DOI citations
+    # DOI atıfları
     DOI = r'(?:doi:|DOI:)\s*(10\.\d+/[^\s]+)'
     
     @classmethod

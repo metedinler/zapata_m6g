@@ -1,7 +1,7 @@
-# Zapata M6 Program Analysis Report
+# Zapata M6 Program Analiz Raporu
 ## Kapsamlı Program İnceleme ve Analiz Raporu
 
-### 📋 Executive Summary
+### 📋 Yönetici Özeti
 Zapata M6, bilimsel makalelerin işlenmesi, atıf analizi ve yapay zeka destekli metin analizi için geliştirilmiş kapsamlı bir Python uygulamasıdır. Program, modüler mimari yapısı ile PDF işleme, veri yönetimi, makine öğrenmesi ve görselleştirme özelliklerini entegre eder.
 
 ---

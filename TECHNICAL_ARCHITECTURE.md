@@ -1,7 +1,7 @@
-# Zapata M6 - Technical Architecture Documentation
+# Zapata M6 - Teknik Mimari Dokümantasyonu
 ## Teknik Mimari ve Kod Analizi
 
-### 🔧 Module Dependency Graph
+### 🔧 Modül Bağımlılık Grafiği
 
 ```mermaid
 graph TD
